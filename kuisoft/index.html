@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuisoft | Geleceği Kodluyoruz</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+    <div class="loading-screen">
+        <div class="loading-content">
+            <h1>Kuisoft</h1>
+            <div class="loading-bar"><div class="loading-progress"></div></div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kuisoft</div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                <li><a href="hizmetler.html">Hizmetlerimiz</a></li>
+                <li><a href="projeler.html">Projelerimiz</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="iletisim.html" class="contact-btn">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-bg">
+                <canvas id="hero-canvas"></canvas>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Kuisoft: <span class="gradient-text">Geleceği Kodluyoruz</span></h1>
+                <p class="hero-subtitle">Yapay zekâ destekli çözümler, dijital tasarım ve uçtan uca yazılım geliştirme...</p>
+
+                <div class="skill-tags">
+                    <div class="tag">Website</div>
+                    <div class="tag">Yazılım</div>
+                    <div class="tag">Mobil Uygulama</div>
+                    <div class="tag">Logo</div>
+                    <div class="tag">E-Ticaret</div>
+                    <div class="tag">UI/UX</div>
+                    <div class="tag">SEO</div>
+                    <div class="tag">Laravel</div>
+                    <div class="tag">PHP</div>
+                    <div class="tag">React</div>
+                    <div class="tag">WordPress</div>
+                    <div class="tag">Danışmanlık</div>
+                    <div class="tag">Startup</div>
+                    <div class="tag">CRM</div>
+                    <div class="tag">API</div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Projeni Başlat</a>
+                    <a href="#contact" class="btn btn-secondary">Bizimle İletişime Geç</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="clients" id="clients">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Müşterilerimiz</h2>
+                    <p>Güven ve yenilik üzerine kurulmuş iş birlikleri</p>
+                </div>
+                <div class="client-slider">
+                    <div class="client-logos">
+                        <div class="client-logo">Client 1</div>
+                        <div class="client-logo">Client 2</div>
+                        <div class="client-logo">Client 3</div>
+                        <div class="client-logo">Client 4</div>
+                        <div class="client-logo">Client 5</div>
+                        <div class="client-logo">Client 6</div>
+                        <div class="client-logo">Client 7</div>
+                        <div class="client-logo">Client 8</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Hizmetlerimiz</h2>
+                    <p>Teknoloji ve tasarımı harmanlayarak geleceğin çözümlerini üretiyoruz</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <div class="icon-wrapper"></div>
+                        </div>
+                        <h3>Web Yazılım</h3>
+                        <p>Modern teknolojilerle geliştirilmiş, hızlı ve güvenli web uygulamaları.</p>
+                        <a href="hizmetler.html" class="learn-more">Detaylı Bilgi <span class="arrow">→</span></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <div class="icon-wrapper"></div>
+                        </div>
+                        <h3>Mobil Uygulama</h3>
+                        <p>Kullanıcı odaklı, performanslı mobil uygulamalar geliştiriyoruz.</p>
+                        <a href="hizmetler.html" class="learn-more">Detaylı Bilgi <span class="arrow">→</span></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <div class="icon-wrapper"></div>
+                        </div>
+                        <h3>UI/UX Tasarım</h3>
+                        <p>Kullanıcı deneyimini ön planda tutan, çarpıcı ve işlevsel arayüzler.</p>
+                        <a href="hizmetler.html" class="learn-more">Detaylı Bilgi <span class="arrow">→</span></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <div class="icon-wrapper"></div>
+                        </div>
+                        <h3>E-Ticaret Çözümleri</h3>
+                        <p>Satışlarınızı artıracak, güvenli ve ölçeklenebilir e-ticaret platformları.</p>
+                        <a href="hizmetler.html" class="learn-more">Detaylı Bilgi <span class="arrow">→</span></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-icon">
+                            <div class="icon-wrapper"></div>
+                        </div>
+                        <h3>Kurumsal Yazılım</h3>
+                        <p>İş süreçlerinizi optimize eden özel yazılım çözümleri.</p>
+                        <a href="hizmetler.html" class="learn-more">Detaylı Bilgi <span class="arrow">→</span></a>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-icon">
+                            <div class="icon-wrapper"></div>
+                        </div>
+                        <h3>Yapay Zeka Entegrasyonu</h3>
+                        <p>İşinizi ileriye taşıyacak akıllı AI çözümleri ve entegrasyonları.</p>
+                        <a href="hizmetler.html" class="learn-more">Detaylı Bilgi <span class="arrow">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Projelerimiz</h2>
+                    <p>Yenilikçi fikirlerinizi hayata geçiriyoruz</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <h3>E-ticaret Platformu</h3>
+                                <p>Modern alışveriş deneyimi</p>
+                                <a href="projeler.html" class="btn btn-sm">Detaylar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <h3>Fintech Uygulaması</h3>
+                                <p>Yenilikçi finans çözümü</p>
+                                <a href="projeler.html" class="btn btn-sm">Detaylar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <h3>AI Asistan</h3>
+                                <p>Yapay zeka destekli müşteri hizmetleri</p>
+                                <a href="projeler.html" class="btn btn-sm">Detaylar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <h3>Mobil Rezervasyon</h3>
+                                <p>Kullanıcı dostu deneyim</p>
+                                <a href="projeler.html" class="btn btn-sm">Detaylar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-cta">
+                    <a href="projeler.html" class="btn btn-primary">Tüm Projelerimiz</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-us" id="why-us">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Neden Kuisoft?</h2>
+                    <p>Farkımız, yenilikçi yaklaşımımız ve teknoloji odaklı çözümlerimizde gizli</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card" data-aos="fade-up">
+                        <div class="feature-icon"></div>
+                        <h3>Yenilikçi Teknolojiler</h3>
+                        <p>En son teknolojilerle geliştirilmiş, geleceğe hazır çözümler sunuyoruz.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon"></div>
+                        <h3>Uzman Ekip</h3>
+                        <p>Alanında uzman, deneyimli ve yaratıcı bir ekiple çalışıyoruz.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon"></div>
+                        <h3>Kullanıcı Odaklı Yaklaşım</h3>
+                        <p>Her projede kullanıcı deneyimini ön planda tutuyoruz.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-icon"></div>
+                        <h3>Sürdürülebilir Çözümler</h3>
+                        <p>Uzun vadeli, ölçeklenebilir ve sürdürülebilir projeler geliştiriyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <div class="section-title">
+                            <h2>Hakkımızda</h2>
+                            <p>Geleceği şekillendiren yazılım çözümleri</p>
+                        </div>
+                        <p class="about-desc">
+                            Kuisoft olarak, teknoloji ve yaratıcılığı bir araya getirerek dijital dünyanın en yenilikçi çözümlerini üretiyoruz. Yapay zeka, blockchain ve bulut teknolojileri alanındaki uzmanlığımızla, işletmelerin dijital dönüşümünde yanlarında oluyoruz.
+                        </p>
+                        <p class="about-desc">
+                            Ekibimiz, sektörün önde gelen geliştiricileri, tasarımcıları ve stratejistlerinden oluşuyor. Her projede müşterilerimizin ihtiyaçlarını anlamak ve beklentilerinin ötesine geçmek için çalışıyoruz.
+                        </p>
+                        <a href="hakkimizda.html" class="btn btn-primary">Daha Fazla Bilgi</a>
+                    </div>
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="image-wrapper">
+                            <div class="floating-element elem1"></div>
+                            <div class="floating-element elem2"></div>
+                            <div class="floating-element elem3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>İletişim</h2>
+                    <p>Projenizi hayata geçirmek için bugün bizimle iletişime geçin</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="info-item">
+                            <div class="info-icon"></div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <p>info@kuisoft.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"></div>
+                            <div class="info-content">
+                                <h3>Telefon</h3>
+                                <p>+90 212 123 45 67</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"></div>
+                            <div class="info-content">
+                                <h3>Adres</h3>
+                                <p>İstanbul, Türkiye</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"></a>
+                            <a href="#" class="social-link"></a>
+                            <a href="#" class="social-link"></a>
+                            <a href="#" class="social-link"></a>
+                        </div>
+                    </div>
+                    <div class="contact-form" data-aos="fade-left">
+                        <form method="post" action="iletisim.php">
+                            <div class="form-group">
+                                <label for="name">Adınız</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="input-highlight"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="input-highlight"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Konu</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <div class="input-highlight"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mesajınız</label>
+                                <textarea id="message" name="message" required></textarea>
+                                <div class="input-highlight"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">Kuisoft</div>
+                    <p>Geleceği kodluyoruz. Yenilikçi dijital çözümler için Kuisoft.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"></a>
+                        <a href="#" class="social-link"></a>
+                        <a href="#" class="social-link"></a>
+                        <a href="#" class="social-link"></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Hizmetlerimiz</h3>
+                    <ul>
+                        <li><a href="hizmetler.html">Web Yazılım</a></li>
+                        <li><a href="hizmetler.html">Mobil Uygulama</a></li>
+                        <li><a href="hizmetler.html">UI/UX Tasarım</a></li>
+                        <li><a href="hizmetler.html">E-Ticaret Çözümleri</a></li>
+                        <li><a href="hizmetler.html">Kurumsal Yazılım</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="projeler.html">Projelerimiz</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>İletişim</h3>
+                    <p>İstanbul, Türkiye</p>
+                    <p>info@kuisoft.com</p>
+                    <p>+90 212 123 45 67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kuisoft. Tüm Hakları Saklıdır.</p>
+                <div class="footer-links">
+                    <a href="kvkk.html">KVKK</a>
+                    <a href="gizlilik.html">Gizlilik Politikası</a>
+                    <a href="kullanim-kosullari.html">Kullanım Koşulları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
